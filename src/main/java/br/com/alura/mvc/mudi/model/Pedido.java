@@ -30,5 +30,8 @@ public class Pedido {
     @Column
     private String descricao;
 
+    @Enumerated(EnumType.STRING)
+    private StatusPedido statusPedido;
+
 
 }
